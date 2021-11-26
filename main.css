@@ -7,6 +7,7 @@ body {
   padding: 0 40px;
 }
 
+
   /* Свойства ссылок */
 a {
   display: block;
@@ -16,7 +17,7 @@ a {
 
   /* Что делать при наведении на ссылку */
 a:hover {
-  color:#FFD700;
+  color: dimgray;
 }
 
   /* Этим свойством добавляем подчеркивание */
@@ -32,7 +33,7 @@ a::after {
 
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -52,5 +53,5 @@ h2 {
 
   /* Эффект наведения на картинку */
 .photo:hover {
-  border: 3px solid #FFD700;
+  border: 3px solid dimgray;
 }
